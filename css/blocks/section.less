@@ -1,0 +1,55 @@
+// main: ../style.less
+
+.section {
+    padding-top: 160px;
+}
+
+.section_cols {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: -130px;
+        background: url("../img/section/path.svg");
+        width: 974px;
+        height: 20px;
+        top: 50px;
+    }
+}
+
+.col_img_bgc{
+    width: 96px;
+    height: 96px;
+    padding: 25px;
+    border-radius: 100%;
+    background-color: @yellow;
+}
+
+.convenience_col {
+    max-width: 345px;
+    margin: 15px auto;
+}
+
+.convenience_title {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: @black;
+    margin-top: 40px;
+}
+
+.convenience_text {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;        
+    color: @grey;
+    margin-top: 27px;
+
+}

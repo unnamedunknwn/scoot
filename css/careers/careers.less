@@ -1,0 +1,86 @@
+// main: ../style.less
+
+/* HERO */
+.careers_hero {
+    background: url("../img/careers/careers_bg.png");
+    background-repeat: no-repeat;
+    padding: 72px 0;
+    background-size: cover;
+}
+
+.careers_hero_main h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+
+/* BLOG */
+.careers_blog {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.careers_blog_img{
+    border-radius: 100%;
+}
+
+/* APPLY */
+
+.apply {
+    margin: 120px 0;
+}   
+
+.apply_choose {
+    display: flex;justify-content: space-between;
+    align-items: center;
+    background-color: #F2F5F9;
+    padding: 33px 40px;
+    
+    &:not(:first-child) {
+        margin-top: 24px;
+    }
+}
+
+.choose_inner h3 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: @black;
+}
+
+.choose_inner p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: @black;
+    margin-top: 8px;
+}
+
+.apply_btn {
+    padding: 14px 66px;
+    background-color: @yellow;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    transition: background .3s;
+    cursor: pointer;
+    border: 3px solid #FCB72B;
+
+
+    &:hover {
+        background-color: #fff;
+        color: #FCB72B;
+
+    }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="container header_container">
+        <a href="index.html"><img src="img/scoot.svg" alt="logo" width="169" height="34" class="header_logo"></a>
+
+        <nav class="nav_link">
+            <ul class="nav_list">
+                <li class="nav_item"><a class="nav_links active" href="about.html">About</a></li>
+                <li class="nav_item"><a class="nav_links" href="location.html">Location</a></li>
+                <li class="nav_item"><a class="nav_links" href="careers.html">Careers</a></li>
+            </ul>
+        </nav>
+
+        <button type="button" class="navbar_btn">Get Scootin</button>
+    </div><!-- ./header_container -->
+
+    <!-- ABOUT HERO -->
+    <div class="about_hero">
+        <div class="container">
+            <div class="about_hero_main">
+                <h2>About</h2>
+            </div>
+        </div>
+    </div><!-- ./about_hero -->
+
+
+    <!-- About Blog -->
+    <div class="container">
+        <div class="about_blog">
+            <div class="blog_inner">
+                <div class="blog_inner_left">
+                    <h2>Mobility for the digital era</h2>
+                    <p>Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.</p>
+                    <!-- <button type="button" class="blog_btn">Learn More</button> -->
+                </div>
+                <div class="blog_inner_right">
+                    <img src="img/about/blog1.png" class="about_blog_img">
+                </div>
+            </div>
+    
+            <!-- 2 -->
+    
+            <div class="blog_inner blog_inner2">
+                <div class="blog_inner_left2">
+                    <img src="img/about/blog2.png">
+                </div>
+    
+                <div class="blog_inner_right2">
+                    <h2>Better urban living</h2>
+                    <p>We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.</p>
+                    <!-- <button type="button" class="blog_btn">Learn More</button> -->
+                </div>
+            </div>
+
+        </div><!-- ./about_blog -->
+    </div><!-- ./container -->
+
+
+    <!-- About Values -->
+    <div class="about_values">
+        <div class="container">
+           <h2 class="about_value_title">Our values</h2>
+        
+            <div class="values_columns">
+                <div class="value_col">
+                    <img src="img/about/value1.png" width="350" height="350">
+                    <div class="col_nubmber_abs">
+                        <p>01</p>
+                    </div>
+                    <div class="value_gap">
+                        <h3 class="value_col_title">Our tech</h3>
+                        <p class="value_col_text">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
+                    </div> 
+                </div>
+
+                <div class="value_col">
+                    <img src="img/about/value2.png" width="350" height="350">
+                    <div class="col_nubmber_abs">
+                        <p>02</p>
+                    </div>
+                    <div class="value_gap">
+                        <h3 class="value_col_title">Our integrity</h3>
+                        <p class="value_col_text">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.</p>
+                    </div> 
+                </div>
+
+                <div class="value_col">
+                    <img src="img/about/value3.png" width="350" height="350">
+                    <div class="col_nubmber_abs">
+                        <p>03</p>
+                    </div>
+                    <div class="value_gap">
+                        <h3 class="value_col_title">Our community</h3>
+                        <p class="value_col_text">We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.</p>
+                    </div> 
+                </div>
+            </div><!-- ./values_columns -->
+
+        </div><!-- ./container -->
+    </div><!-- ./about_values -->
+
+    
+    <!-- FAQs -->
+    <div class="faqs">
+        <div class="container">
+            <h2 class="faqs_title">FAQs</h2>
+
+            <!-- Faqs col 1 -->
+            <div class="faqs_column">
+                <div class="faqs_left_col">
+                    <h3>How it works</h3>
+                </div>
+                <div class="faqs_right_col">
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>How do I download the app?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext" class="faqs_p">To download the Scoot app, you can search “Scoot” in both the App andGoogle Play stores. An even simpler way to do it would be to click therelevant link at the bottom of this page and you’ll be re-directed tothe correct page.</p>
+                    </div>
+
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>Can I find a nearby Scoots?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide2()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext2" class="faqs_p">To download the Scoot app, you can search “Scoot” in both the App andGoogle Play stores. An even simpler way to do it would be to click therelevant link at the bottom of this page and you’ll be re-directed tothe correct page.</p>
+                    </div>
+
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>Do I need a license to ride?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide3()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext3" class="faqs_p">To download the Scoot app, you can search “Scoot” in both the App andGoogle Play stores. An even simpler way to do it would be to click therelevant link at the bottom of this page and you’ll be re-directed tothe correct page.</p>
+                    </div>
+                </div>
+            </div> <!-- ./faqs_column -->
+
+            <!-- Faqs col 1 -->
+
+            <div class="faqs_column">
+                <div class="faqs_left_col">
+                    <h3>Safe driving</h3>
+                </div>
+                <div class="faqs_right_col">
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>Should I wear a helmet?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide4()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext4" class="faqs_p2">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                    </div>
+
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>How about the rules & regulations?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide5()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext5" class="faqs_p">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                    </div>
+
+                    <div class="faqs_col">
+                        <div class="faqs_show_hide">
+                            <h3>What if I damage my Scoot?</h3>
+                            <button type="button" class="faqs_show_hide_btn" onclick="show_hide6()"><img src="img/about/arrow.svg"></button>
+                        </div>
+                        <p id="showtext6" class="faqs_p">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                    </div>
+                </div>
+            </div> <!-- ./faqs_column -->
+
+        </div> <!-- ./container -->
+    </div> <!-- ./faqs -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="container footer_container">
+                <div class="footer_inner">
+                    <div class="footer_title">
+                        <h2>Sign up and Scoot off today</h2>
+                    </div>
+            
+                    <div class="footer_link">
+                        <a href="#"><img src="img/footer/app_store.svg"></a>
+                        <a href="#"><img src="img/footer/google_play.svg"></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> <!-- ./footer -->
+
+
+    <!-- Footer nav -->
+    <div class="footer_nav">
+        <div class="container header_container">
+            <a href="index.html"><img src="img/footer/logo_white.svg" alt="logo" width="169" height="34" class="header_logo"></a>
+
+            <nav class="nav_link">
+                <ul class="nav_list">
+                    <li class="nav_item"><a class="nav_links" href="about.html">About</a></li>
+                    <li class="nav_item"><a class="nav_links" href="location.html">Location</a></li>
+                    <li class="nav_item"><a class="nav_links" href="careers.html">Careers</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer_nav_social">
+                <a href="#"><img src="img/footer/facebook.svg"></a>
+                <a href="#"><img src="img/footer/instagram.svg"></a>
+                <a href="#"><img src="img/footer/twitter.svg"></a>
+            </div>
+
+        </div><!-- ./header_container -->
+    </div><!-- /footer_nav -->
+
+
+    <script src="main.js"></script>
+</body>
+</html>
